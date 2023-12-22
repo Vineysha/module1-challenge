@@ -1,13 +1,17 @@
+/* The element's total width and height */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+
 body {
     background-color: #d9dcd6;
 }
 
+
+/* Displays the size of the header, along with its color and fonts*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,21 @@ body {
     color: #ffffff;
 }
 
+
+/* Display of the Horiseon logo at the top of the page and its size */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+
+/* Displays a different color on the letters "seo" in the main logo */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+
+/* Displays the position, size, and font of the three top links  */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +42,32 @@ body {
     font-size: 20px;
 }
 
+
 .header div ul {
     list-style-type: none;
 }
 
+
+/* Displays the space between each top link */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+
+/* Displays the color of the three top links */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+
 p {
-    font-size: 16px;
+    font-size: 500px;
 }
 
+
+/* Displays the size, and position of the top image */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,6 +77,8 @@ p {
     background-position: center;
 }
 
+
+/* Displays the positioning of the three pictures in the articles */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -69,12 +89,16 @@ p {
     margin-left: 25px;
 }
 
+
+/* Displays the horizontal lenght of the three blue boxes in the articles*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+
+/* Displays the vertical blue box next to the articles */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,6 +110,8 @@ p {
     background-color: #2589bd;
 }
 
+
+/* Sets a margin between the three vertical sections and the color of the text */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -101,6 +127,8 @@ p {
     color: #ffffff;
 }
 
+
+/* Displays the alignment of the text in the vertical box and the space between the image and text */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -116,6 +144,8 @@ p {
     text-align: center;
 }
 
+
+/* Displays the size of the images inside the horizontal box */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -134,6 +164,8 @@ p {
     max-width: 150px;
 }
 
+
+/* Displays the space between each horizontal box, along with its font and colors */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,6 +193,8 @@ p {
     color: #ffffff;
 }
 
+
+/* Displays the height of the image in the articles */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -188,6 +222,8 @@ p {
     font-size: 36px;
 }
 
+
+/* Displays the alignment of the footer text and its font */
 .footer {
     padding: 30px;
     clear: both;
